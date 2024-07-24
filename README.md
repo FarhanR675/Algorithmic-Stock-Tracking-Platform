@@ -1,7 +1,7 @@
 # Algorithmic Stock Tracking Platform
 
 ## Description
-A back-end platform designed to track stock prices and provide key financial metrics. This project integrates with the Alpha Vantage API to fetch real-time global stock quotes, and utilizes Java, HttpServer, PostgreSQL, and JUnit to deliver a robust and efficient stock tracking solution.
+A back-end platform designed to track stock prices and provide key financial metrics. This project integrates with the Alpha Vantage API to fetch real-time global stock quotes, and utilizes Java, JavaFX, HttpServer, PostgreSQL, and JUnit to deliver a robust and efficient stock tracking solution.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -45,7 +45,7 @@ A back-end platform designed to track stock prices and provide key financial met
 2. Access the API:
     - Use the console based options when starting the server or Use Postman or your browser to navigate to `http://localhost:8080/api/v1/stocks`
 
-4. Example API requests:
+3. Example API requests:
     - To get stock data for a specific symbol using Postman:
         ```sh
         Postman - GET "http://localhost:8080/api/v1/stocks/{symbol}"
@@ -61,7 +61,7 @@ A back-end platform designed to track stock prices and provide key financial met
 ## Technologies Used
 
 - **Programming Languages:** Java, SQL
-- **Frameworks and Tools:** Maven, JUnit
+- **Frameworks and Tools:** Maven, JUnit, JavaFX
 - **Databases:** PostgreSQL
 - **Other:** Git, API Integration, Json
 
